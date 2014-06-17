@@ -1,0 +1,15 @@
+python -m cProfile 3and5.py
+233168
+         537 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 mult.py:20(mults5)
+        1    0.001    0.001    0.001    0.001 mult.py:4(<module>)
+        1    0.000    0.000    0.000    0.000 mult.py:8(mults3)
+      532    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {sum}
+
+Total Time: 0.001 seconds
